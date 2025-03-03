@@ -19,7 +19,7 @@ jobs:
         needs: Order-online 
         steps:
             - name: Choose food
-              run: echo"Choose your favourite"
+              run: echo "Choose your favourite"
 
             - name: Eat food
               run: echo "Ate the food"
