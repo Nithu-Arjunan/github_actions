@@ -13,3 +13,13 @@ jobs:
 
             - name : Payment
               run : echo "Payment done"
+
+    Eat-food:
+        runs-on: Ubuntu-latest
+        needs: Order-online 
+        steps:
+            - name: Choose food
+              run: echo"Choose your favourite"
+
+            - name: Eat food
+              run: echo "Ate the food"
