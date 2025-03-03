@@ -1,0 +1,10 @@
+name: Pizza Delivery
+on: push
+
+jobs: 
+    Order-online:
+        runs-on: macos-latest
+        steps:
+            - name: Open Mobile
+              run: "Open Mobile"
+
